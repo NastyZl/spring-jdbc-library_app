@@ -1,0 +1,32 @@
+insert into Genre (genre_name) values ('Роман');
+insert into Genre (genre_name) values ('Поэзия');
+insert into Genre (genre_name) values ('Детектив');
+insert into Genre (genre_name) values ('Фэнтези');
+insert into Genre (genre_name) values ('Научная фантастика');
+insert into Genre (genre_name) values ('Публицистика');
+insert into Genre (genre_name) values ('Классика');
+insert into Genre (genre_name) values ('Драма');
+insert into Genre (genre_name) values ('Исторический роман');
+insert into Genre (genre_name) values ('Приключения');
+
+insert into Author (first_name, last_name) values ('Лев', 'Толстой');
+insert into Author (first_name, last_name) values ('Александр', 'Пушкин');
+insert into Author (first_name, last_name) values ('Федор', 'Достоевский');
+insert into Author (first_name, last_name) values ('Иван', 'Тургенев');
+insert into Author (first_name, last_name) values ('Николай', 'Гоголь');
+insert into Author (first_name, last_name) values ('Антон', 'Чехов');
+insert into Author (first_name, last_name) values ('Михаил', 'Лермонтов');
+insert into Author (first_name, last_name) values ('Владимир', 'Набоков');
+insert into Author (first_name, last_name) values ('Сергей', 'Есенин');
+insert into Author (first_name, last_name) values ('Борис', 'Пастернак');
+
+insert into Book (book_name, year_of_publishing, genre_id, author_id) values ('Война и мир', 1869, 1, 1);
+insert into Book (book_name, year_of_publishing, genre_id, author_id) values ('Евгений Онегин', 1833, 2, 2);
+insert into Book (book_name, year_of_publishing, genre_id, author_id) values ('Преступление и наказание', 1866, 3, 3);
+insert into Book (book_name, year_of_publishing, genre_id, author_id) values ('Отцы и дети', 1862, 7, 4);
+insert into Book (book_name, year_of_publishing, genre_id, author_id) values ('Мертвые души', 1842, 6, 5);
+insert into Book (book_name, year_of_publishing, genre_id, author_id) values ('Вишневый сад', 1904, 8, 6);
+insert into Book (book_name, year_of_publishing, genre_id, author_id) values ('Герой нашего времени', 1840, 1, 7);
+insert into Book (book_name, year_of_publishing, genre_id, author_id) values ('Лолита', 1955, 6, 8);
+insert into Book (book_name, year_of_publishing, genre_id, author_id) values ('Идиот', 1868, 1, 3);
+insert into Book (book_name, year_of_publishing, genre_id, author_id) values ('Доктор Живаго', 1957, 8, 10);

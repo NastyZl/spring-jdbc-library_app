@@ -1,0 +1,8 @@
+/target/classes/ru/pvn/libraryApp/LibraryAppApplication.class
+/target/test-classes/ru/pvn/libraryApp/LibraryAppApplicationTests.class
+/target/classes/application.properties
+/target/classes/banner.txt
+/LibraryApp.iml
+/.idea/
+/target/
+/spring-shell.log
